@@ -81,10 +81,18 @@
   
   .los-precios{
     display: flex;
+
   }
 
   .price {
     font-size: 18px;
+    width: 30%;
+  }
+
+  main section article i,
+  .discount {
+    color: #39b54a;
+    width: 70%;
   }
   
   .discount,
@@ -121,15 +129,11 @@
     width: 100%;
   }
   
-  main section article i,
-  .discount {
-    color: #39b54a;
-  }
   
   main section article i {
     font-size: 16px;
     padding: 5px;
-    width: 30px;
+    width: 30px; 
     height: 30px;
     border: 1px solid #39b54a;
     background-color: #fff;
@@ -137,6 +141,7 @@
     display: block;
     position: relative;
     top: -25px;
+    left: 250px;
   }
   
   main section h3 {
@@ -160,5 +165,12 @@
   }
   
   @media (min-width: 769px) {
+    main section .last-visit{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
   }
   
