@@ -73,11 +73,15 @@
     color: #fff;
     font-size: 20px;
     height: 40px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
   }
   
+  .los-precios{
+    display: flex;
+  }
+
   .price {
     font-size: 18px;
   }
@@ -94,7 +98,7 @@
   }
   
   .description {
-    display: none;
+    display: block;
     margin-top: 20px;
   }
   
