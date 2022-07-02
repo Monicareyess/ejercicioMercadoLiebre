@@ -26,11 +26,9 @@
   
   header div.logo {
     width: 50%;
-  }
-  
-  header div.logo {
     padding: 10px;
   }
+
   header nav {
     font-size: 12px;
   }
@@ -46,11 +44,13 @@
   
   header .form .input {
     background-color: #fff;
-    border: 1px solid #000;
+    border: none;
+    border-radius: 4px;
     outline: none;
     color: #666;
-    padding: 2px;
+    padding: 5px;
   }
+
   header .form .submit {
     background-color: #fff;
     border: 1px solid #000;
@@ -139,9 +139,9 @@
     background-color: #fff;
     border-radius: 50%;
     display: block;
-    position: relative;
-    top: -25px;
-    left: 250px;
+    position: absolute;
+    left: 17rem;
+    top: 48.7rem;
   }
   
   main section h3 {
@@ -162,15 +162,153 @@
     main section article {
       box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
+    .top-header{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .logo{
+      width: 50%;
+    }
+
+    .form{
+      width: 50%;
+      display: flex;
+      height: 2.5rem;
+      margin-top: 10px;
+    }
+
+    .form .input{
+      padding: 5rem;
+
+    }
+    
+    .compra-en-coutas{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .listas-menu{
+      display: none;
+
+    }
   }
   
   @media (min-width: 769px) {
-    main section .last-visit{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
+    article{
+      width: 40%;
     }
 
+    .product_img{
+      height: 15rem;
+      width: 15rem;
+    }
+
+    .products{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .products article{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      height: 25rem;
+      flex-direction: column;
+    }
+
+    .logo{
+      display:flex;
+      height: 5rem;
+      margin: 0;
+      width: 10%;
+    }
+
+    .form{
+      width: 30%;
+      display: flex;
+      height: 2.5rem;
+      margin-top: 10px;
+    }
+
+    .form .input{
+      padding: 5rem;
+
+    }
+    
+    .compra-en-coutas{
+      display: flex;
+      width: 10%;
+      height: 5rem;
+    }
+
+    nav{
+      display: flex;
+    }
+
+    .listas-menu{
+      display: flex;
+      margin-bottom: 2rem;
+    }
+
+    #lista-uno{
+      margin-left: 2rem;
+      gap: 1rem;
+    }
+
+    #lista-dos{
+      display: flex;
+      margin-right: 2rem;
+      margin-left:auto;
+      gap: 1rem;
+    }
+
+    .burger-menu{
+      display: none;
+    }
+
+    
   }
+
+  @media (min-width: 1024px) {
+    article{
+      width: 23%;
+    }
+    .product_img{
+      height: 10rem;
+      width: 10rem;
+    }
+    .products{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+    }
+    .products article{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      margin-top: 1rem;
+      height: 20rem;
+      flex-direction: column;
+    }
+    .price {
+      font-size: 18px;
+      width: 50%;
+    }
   
+    .discount {
+      color: #39b54a;
+      width: 50%;
+  } 
+
+}
