@@ -312,3 +312,8 @@
   } 
 
 }
+
+main form .intereses{
+  display: flex;
+  flex-direction: column;
+}
