@@ -8,32 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/color.css">
 </head>
 
 <body>
     <header>
         <div class="top-header">
-            <div class="logo-bar-container">
-                <div class="logo">
-                    <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" >                
-                </div>
-                <div class="search-button-container">
-                    <div class="search-container">
-                        <input type="text" placeholder="Buscar productos, marcas...">
-                        <button><i class="fa fa-search"></i></button>
-                    </div>
-                </div>
+            <div class="logo">
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="mercado-liebre-logo">
             </div>
-            <div class="card-container">
-                <h2 class="compra-en-coutas"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
+             <div class="form" action="#" method="GET">
+                <input class="input" placeholder="Buscar productos, marcas y más"> </input>
+                <div class="submit"><i class="fa fa-search"></i></div>
             </div>
+            <p class="compra-en-coutas"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
-        <div class="burger-container">
-            <div class="burger-menu">
-                <i class="fa fa-bars burger"></i>
-            </div>
-        </div>
+        
         <nav>
             <ul class="listas-menu" id="lista-uno" >
                 <li><a href="#">Ofertas</a></li>
@@ -47,6 +36,9 @@
                 <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
     </header>
     <section class="banner">
         <img src="images/img-home-banner.jpg" alt="Banner de ofertas">

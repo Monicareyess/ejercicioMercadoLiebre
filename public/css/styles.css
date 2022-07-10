@@ -16,17 +16,34 @@
   p {
     font-size: 12px;
   }
-  div.top-header {
-    padding: 5%;
-  }
+
+   .top-header {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  } 
   
-  header {
+   header {
     background-color: #eac926;
-  }
+  } 
   
   header div.logo {
-    width: 50%;
+    width: 15rem;
     padding: 10px;
+
+  }
+
+  .logo-bar-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
+  .search-button-container{
+    width: 50%;
   }
 
   header nav {
@@ -58,10 +75,13 @@
     width: 10%;
   }
   
-  header div.top-header p {
+  header div.top-header h2 {
+    display: flex;
+    justify-content: center;
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    font-size: 1rem;
   }
   
   div.burger-menu {
@@ -77,7 +97,7 @@
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
-  }
+  } 
   
   .los-precios{
     display: flex;
@@ -134,7 +154,7 @@
   }
   
   
-  main section article i {
+  /* main section article i {
     font-size: 16px;
     padding: 5px;
     width: 30px; 
@@ -146,7 +166,7 @@
     position: absolute;
     left: 17rem;
     top: 48.7rem;
-  }
+  } */
   
   main section h3 {
     margin: 20px 0px;
@@ -160,19 +180,19 @@
 
 
   @media (min-width: 361px) {
+   .top-header{
+      display: flex;
+      flex-wrap: wrap;
+    } 
     main section article .description {
       display: block;
     }
   
-
-
-    .top-header{
-      display: flex;
-      flex-wrap: wrap;
-    }
+    
 
     .logo{
-      width: 50%;
+      width: 40%;
+
     }
 
     .form{
@@ -182,10 +202,9 @@
       margin-top: 10px;
     }
 
-    .form .input{
-      padding: 5rem;
-
-    }
+    /* .form .input{
+      padding: 10rem;
+    } */
     
     .compra-en-coutas{
       display: flex;
@@ -199,7 +218,7 @@
     }
   }
   
-  @media (min-width: 769px) {
+  @media (min-width: 770px) {
     article{
       width: 40%;
     }
@@ -225,9 +244,11 @@
       flex-direction: column;
     }
 
+  }
+/* 
     .logo{
-      display:flex;
-      height: 5rem;
+      /* display:flex; */
+      /* height: 5rem;
       margin: 0;
       width: 10%;
     }
@@ -241,8 +262,7 @@
 
     .form .input{
       padding: 5rem;
-
-    }
+    } */
     
     .compra-en-coutas{
       display: flex;
@@ -279,6 +299,41 @@
   }
 
   @media (min-width: 1024px) {
+    header{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .top-header{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-bar-container{
+      width: 70%;
+    }
+    /* .search-button-container{
+      width: 30%;
+    } */
+
+    .search-button-container , .search-container{
+      display: flex;
+    }
+
+    input{
+        background-color: #fff;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        color: #666;
+        padding: 5px;
+    }
+
+    .compra-en-coutas{
+      width: 30%;
+    }
+
     article{
       width: 23%;
     }
@@ -312,8 +367,7 @@
     .discount {
       color: #39b54a;
       width: 50%;
-  } 
-
+  }   
 }
 
 main form .intereses{
