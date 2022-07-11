@@ -28,8 +28,8 @@
   } 
   
   header div.logo {
-    width: 100%;
-    padding: 2px;
+    width: 30rem;;
+    /* padding: 2px; */
 
   }
 
@@ -191,24 +191,52 @@
     }
   
     .top-header{
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       padding: 1rem;
     }
+    .search-button-container{
+      width: 35%;
+    }
+    .search-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+   
+    .logo-bar-container{
+      display: flex;
+      justify-content: space-between;  
+      width: 85%;
+      height: 3.5rem;
+    }
+    
+    #buscador{
+      width: 7.2rem;
+      padding-right: .5rem;
+      border-radius: 0;
+      height: 2.5rem;
+    }
+
+    .search-container button{
+      background-color: #fff;
+      outline: none;
+      border: none;
+      border-radius: 0;
+    }
 
     .logo{
-      width: 100%;
-      background-color: #0044aa;
-      padding: 0;
+      margin-right: 1.5rem;
     }
 
     #logo-mercado-liebre{
       max-width: 80%;
-      padding-left: 2rem;
+      /* padding-left: 2rem; */
     }
 
     .form{
-      width: 50%;
+      width: 60%;
       display: flex;
       height: 2.5rem;
       margin-top: 10px;
@@ -242,6 +270,23 @@
       width: 40%;
     }
 
+    .logo{
+      width: 80%;
+    }
+
+    #logo-mercado-liebre {
+      max-width: 100%;
+    }
+
+    .search-button-container{
+      width: 30%;
+    }
+
+    .search-container {
+      width: 100%;
+      justify-content:center;
+    }
+
     .product_img{
       height: 15rem;
       width: 15rem;
@@ -271,25 +316,30 @@
       color: #666;
       padding: 5px;
   }
+
     .top-header{
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
 
     .logo-bar-container{
       display: flex;
       justify-content: space-between;
       width: 50%;
+      background-color: #0044aa; 
     }
+
     .search-container{
       display: flex;
       justify-content: center;
       padding-right: 0;
+      background-color: #0044aa;
     }
 
     .compra-en-coutas{
       display: flex;
-      width: 50%;
+      width: 30%;
       height: 5rem;
     }
 
@@ -344,6 +394,10 @@
       width: 70%;
       background-color: #0044aa;
       justify-content: space-between;
+    }
+
+    #logo-mercado-liebre {
+      max-width: 50%;
     }
   
     .search-button-container , .search-container{
@@ -415,4 +469,35 @@
 main form .intereses{
   display: flex;
   flex-direction: column;
+}
+
+.form-register{
+  padding: 20px;
+}
+
+.form-login{
+  padding: 20px;
+}
+
+#nombre, #usuario, #fechaDeNacimiento, #domicilio, #perfil{
+  width: 50%;
+}
+
+.boton-enviar{
+  background-color: #0044aa;
+  color: #fff;
+  padding: 10px 20px;
+  border-color: #0044aa;
+}
+
+.boton-borrar{
+  background-color:#fff;
+  color: #1b1b1b;
+  padding: 10px 20px;
+  border-color: #fff;
+}
+
+.botones{
+  display: flex;
+  padding: 10px;
 }
