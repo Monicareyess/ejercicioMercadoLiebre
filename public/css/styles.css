@@ -195,10 +195,12 @@
       display: flex;
       flex-wrap: wrap;
       padding: 1rem;
+      padding-right: 2rem;
     }
     .search-button-container{
       width: 35%;
     }
+
     .search-container{
       width: 100%;
       display: flex;
@@ -327,14 +329,12 @@
       display: flex;
       justify-content: space-between;
       width: 50%;
-      background-color: #0044aa; 
     }
 
     .search-container{
       display: flex;
       justify-content: center;
       padding-right: 0;
-      background-color: #0044aa;
     }
 
     .compra-en-coutas{
@@ -392,7 +392,6 @@
 
     .logo-bar-container{
       width: 70%;
-      background-color: #0044aa;
       justify-content: space-between;
     }
 
@@ -403,7 +402,6 @@
     .search-button-container , .search-container{
       display: flex;
       justify-content: center;
-      background-color: red;
     }
 
     .search-container{
