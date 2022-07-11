@@ -184,6 +184,11 @@
     font-size: 18px;
   }
 
+  .secciones-del-footer i{
+    color: #0044aa;
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
 
   @media (min-width: 361px) {
     main section article .description {
