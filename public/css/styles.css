@@ -174,6 +174,16 @@
     padding: 15px;  
   }
 
+  footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
 
   @media (min-width: 361px) {
     main section article .description {
@@ -214,7 +224,18 @@
       display: none;
     }
 
-  }
+    .paga{
+      padding-bottom: 50px;
+    }
+    .envio{
+      padding-bottom: 50px;
+    }
+    .seguridad{
+      padding-bottom: 50px;
+    }
+    }
+
+
   
   @media (min-width: 770px) {
     article{
@@ -250,10 +271,25 @@
       color: #666;
       padding: 5px;
   }
-    
+    .top-header{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo-bar-container{
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+    }
+    .search-container{
+      display: flex;
+      justify-content: center;
+      padding-right: 0;
+    }
+
     .compra-en-coutas{
       display: flex;
-      width: 10%;
+      width: 50%;
       height: 5rem;
     }
 
@@ -282,6 +318,13 @@
       display: none;
     }
 
+    .secciones-del-footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  
     
   }
 
@@ -302,10 +345,7 @@
       background-color: #0044aa;
       justify-content: space-between;
     }
-    /* .search-button-container{
-      width: 30%;
-    } */
-
+  
     .search-button-container , .search-container{
       display: flex;
       justify-content: center;
@@ -363,7 +403,13 @@
     .discount {
       color: #39b54a;
       width: 50%;
-  }   
+  }
+
+  .secciones-del-footer{
+    display: flex;
+    padding: 10px;
+  }
+   
 }
 
 main form .intereses{
