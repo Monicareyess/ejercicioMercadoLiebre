@@ -516,10 +516,14 @@ main form .intereses{
 }
 
 .boton-enviar{
-  background-color: #0044aa;
+  background-color: #000;
   color: #fff;
   padding: 10px 20px;
-  border-color: #0044aa;
+  border-color: #000;
+}
+
+.boton-enviar:hover{
+  background-color: #0022AA;
 }
 
 .boton-borrar{
