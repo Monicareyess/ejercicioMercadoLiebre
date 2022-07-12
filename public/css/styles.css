@@ -125,7 +125,10 @@
   .description {
     display: block;
     margin-top: 20px;
+
   }
+
+ 
   
   section.banner img {
     width: 100%;
@@ -306,6 +309,19 @@
       align-items: center;
     }
 
+    .div-description{
+      position: absolute;
+      background-color: #fff;
+      opacity: 0;
+      left: 0;
+      right: 0;
+      transition-duration: .5s;
+    }
+
+    .products article:hover .div-description{
+      opacity: 1;
+    }
+
     .products article{
       display: flex;
       justify-content: center;
@@ -313,6 +329,7 @@
       margin: 2rem;
       height: 25rem;
       flex-direction: column;
+      position: relative;
     }
 
     #buscador{
